@@ -1,0 +1,2935 @@
+{
+  "num_cases": 50,
+  "metrics_mean_std_across_5_seeds": {
+    "interact_only": {
+      "image_success": {
+        "mean": 0.08,
+        "std": 0.044721359549995794
+      },
+      "instance_success": {
+        "mean": 0.32999999999999996,
+        "std": 0.037080992435478306
+      },
+      "localization": {
+        "mean": 0.77,
+        "std": 0.032596012026013275
+      },
+      "miou": {
+        "mean": 0.6441405782798926,
+        "std": 0.03603938123254884
+      }
+    },
+    "migc_only": {
+      "image_success": {
+        "mean": 0.06000000000000001,
+        "std": 0.05477225575051661
+      },
+      "instance_success": {
+        "mean": 0.505,
+        "std": 0.08177713616898061
+      },
+      "localization": {
+        "mean": 0.78,
+        "std": 0.04472135954999578
+      },
+      "miou": {
+        "mean": 0.6611477541842807,
+        "std": 0.028808834175755204
+      }
+    },
+    "interact_mixed": {
+      "image_success": {
+        "mean": 0.14,
+        "std": 0.05477225575051661
+      },
+      "instance_success": {
+        "mean": 0.48,
+        "std": 0.07158910531638175
+      },
+      "localization": {
+        "mean": 0.825,
+        "std": 0.04999999999999999
+      },
+      "miou": {
+        "mean": 0.7106811774671078,
+        "std": 0.03488972213003073
+      }
+    },
+    "migc_mixed": {
+      "image_success": {
+        "mean": 0.2,
+        "std": 0.07071067811865475
+      },
+      "instance_success": {
+        "mean": 0.5,
+        "std": 0.03061862178478973
+      },
+      "localization": {
+        "mean": 0.8150000000000001,
+        "std": 0.037914377220257735
+      },
+      "miou": {
+        "mean": 0.7033660645382479,
+        "std": 0.024142923878833576
+      }
+    }
+  },
+  "per_seed_metrics": {
+    "interact_only": [
+      {
+        "seed": 42,
+        "image_success": 0.0,
+        "instance_success": 0.325,
+        "localization": 0.775,
+        "miou": 0.6217064983646075
+      },
+      {
+        "seed": 123,
+        "image_success": 0.1,
+        "instance_success": 0.375,
+        "localization": 0.725,
+        "miou": 0.6362139275173346
+      },
+      {
+        "seed": 3407,
+        "image_success": 0.1,
+        "instance_success": 0.325,
+        "localization": 0.8,
+        "miou": 0.6703875037034353
+      },
+      {
+        "seed": 2026,
+        "image_success": 0.1,
+        "instance_success": 0.275,
+        "localization": 0.8,
+        "miou": 0.6905363209545612
+      },
+      {
+        "seed": 10007,
+        "image_success": 0.1,
+        "instance_success": 0.35,
+        "localization": 0.75,
+        "miou": 0.6018586408595243
+      }
+    ],
+    "migc_only": [
+      {
+        "seed": 42,
+        "image_success": 0.1,
+        "instance_success": 0.5,
+        "localization": 0.725,
+        "miou": 0.6447717898680518
+      },
+      {
+        "seed": 123,
+        "image_success": 0.1,
+        "instance_success": 0.575,
+        "localization": 0.825,
+        "miou": 0.6451505631705126
+      },
+      {
+        "seed": 3407,
+        "image_success": 0.1,
+        "instance_success": 0.575,
+        "localization": 0.825,
+        "miou": 0.7120345375935236
+      },
+      {
+        "seed": 2026,
+        "image_success": 0.0,
+        "instance_success": 0.5,
+        "localization": 0.75,
+        "miou": 0.6560665503144264
+      },
+      {
+        "seed": 10007,
+        "image_success": 0.0,
+        "instance_success": 0.375,
+        "localization": 0.775,
+        "miou": 0.6477153299748897
+      }
+    ],
+    "interact_mixed": [
+      {
+        "seed": 42,
+        "image_success": 0.2,
+        "instance_success": 0.525,
+        "localization": 0.9,
+        "miou": 0.7629287347197533
+      },
+      {
+        "seed": 123,
+        "image_success": 0.2,
+        "instance_success": 0.575,
+        "localization": 0.775,
+        "miou": 0.6772392853721977
+      },
+      {
+        "seed": 3407,
+        "image_success": 0.1,
+        "instance_success": 0.475,
+        "localization": 0.8,
+        "miou": 0.7118184516827266
+      },
+      {
+        "seed": 2026,
+        "image_success": 0.1,
+        "instance_success": 0.4,
+        "localization": 0.8,
+        "miou": 0.6804507634912927
+      },
+      {
+        "seed": 10007,
+        "image_success": 0.1,
+        "instance_success": 0.425,
+        "localization": 0.85,
+        "miou": 0.7209686520695686
+      }
+    ],
+    "migc_mixed": [
+      {
+        "seed": 42,
+        "image_success": 0.2,
+        "instance_success": 0.5,
+        "localization": 0.875,
+        "miou": 0.7334872286642591
+      },
+      {
+        "seed": 123,
+        "image_success": 0.2,
+        "instance_success": 0.525,
+        "localization": 0.775,
+        "miou": 0.6683879810183619
+      },
+      {
+        "seed": 3407,
+        "image_success": 0.2,
+        "instance_success": 0.525,
+        "localization": 0.8,
+        "miou": 0.7156418717900912
+      },
+      {
+        "seed": 2026,
+        "image_success": 0.3,
+        "instance_success": 0.5,
+        "localization": 0.825,
+        "miou": 0.7030149569859108
+      },
+      {
+        "seed": 10007,
+        "image_success": 0.1,
+        "instance_success": 0.45,
+        "localization": 0.8,
+        "miou": 0.6962982842326164
+      }
+    ]
+  },
+  "pooled_case_distribution": {
+    "interact_only": {
+      "image_success": {
+        "mean": 0.08,
+        "std": 0.27404751561786966
+      },
+      "instance_success": {
+        "mean": 0.3526666666666667,
+        "std": 0.2551367958184371
+      },
+      "localization": {
+        "mean": 0.77,
+        "std": 0.1986062547968831
+      },
+      "miou": {
+        "mean": 0.6441405782798926,
+        "std": 0.15007110288328734
+      }
+    },
+    "migc_only": {
+      "image_success": {
+        "mean": 0.06,
+        "std": 0.2398979374820952
+      },
+      "instance_success": {
+        "mean": 0.522,
+        "std": 0.21577366995069377
+      },
+      "localization": {
+        "mean": 0.7706666666666666,
+        "std": 0.23924863489067635
+      },
+      "miou": {
+        "mean": 0.6611477541842808,
+        "std": 0.16386610827773124
+      }
+    },
+    "interact_mixed": {
+      "image_success": {
+        "mean": 0.14,
+        "std": 0.3505098327538656
+      },
+      "instance_success": {
+        "mean": 0.523,
+        "std": 0.2528721634853462
+      },
+      "localization": {
+        "mean": 0.8293333333333334,
+        "std": 0.2395564684730963
+      },
+      "miou": {
+        "mean": 0.7106811774671078,
+        "std": 0.1669784126071922
+      }
+    },
+    "migc_mixed": {
+      "image_success": {
+        "mean": 0.2,
+        "std": 0.4040610178208843
+      },
+      "instance_success": {
+        "mean": 0.5496666666666666,
+        "std": 0.2712716756232852
+      },
+      "localization": {
+        "mean": 0.828,
+        "std": 0.22608869890651906
+      },
+      "miou": {
+        "mean": 0.7033660645382479,
+        "std": 0.15563971693096407
+      }
+    }
+  },
+  "paired_interact_mixed_vs_interact_only": {
+    "delta_instance_success": {
+      "mean": 0.17033333333333334,
+      "std": 0.2325860238780511
+    },
+    "delta_miou": {
+      "mean": 0.06654059918721518,
+      "std": 0.1558123539085225
+    },
+    "win_tie_loss": {
+      "win": 25,
+      "tie": 23,
+      "loss": 2
+    }
+  },
+  "stratified_by_migc_auxiliary": {
+    "auxiliary_success": {
+      "count": 3,
+      "delta_instance_success": {
+        "mean": 0.3333333333333333,
+        "std": 0.28867513459481287
+      },
+      "delta_miou": {
+        "mean": 0.26407502591609955,
+        "std": 0.19405626214942048
+      },
+      "win": 2,
+      "tie": 1,
+      "loss": 0
+    },
+    "auxiliary_failure": {
+      "count": 47,
+      "delta_instance_success": {
+        "mean": 0.1599290780141844,
+        "std": 0.22838065664439425
+      },
+      "delta_miou": {
+        "mean": 0.05393201875771192,
+        "std": 0.14668436172138474
+      },
+      "win": 23,
+      "tie": 22,
+      "loss": 2
+    }
+  },
+  "success_candidates": [
+    {
+      "seed": 42,
+      "bench_id": "7",
+      "image_id": "425569",
+      "caption": "a photo of a white oven and a white bowl",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.38298994302749634
+        },
+        "migc_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8075958788394928
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8507016003131866
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8287656903266907
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_425569.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_425569.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_425569.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_425569.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.4677116572856903,
+      "auxiliary_success": true
+    },
+    {
+      "seed": 123,
+      "bench_id": "0",
+      "image_id": "500084",
+      "caption": "a photo of a black cat and a white cat",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.5516710430383682
+        },
+        "migc_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7412494719028473
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7949025928974152
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7907581329345703
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_500084.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_500084.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_500084.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_500084.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.24323154985904694,
+      "auxiliary_success": true
+    },
+    {
+      "seed": 3407,
+      "bench_id": "0",
+      "image_id": "500084",
+      "caption": "a photo of a black cat and a white cat",
+      "metrics": {
+        "interact_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7481386363506317
+        },
+        "migc_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8022589981555939
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8294205069541931
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7260823547840118
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_500084.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_500084.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_500084.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_500084.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.0812818706035614,
+      "auxiliary_success": true
+    }
+  ],
+  "failure_candidates": [
+    {
+      "seed": 42,
+      "bench_id": "0",
+      "image_id": "500084",
+      "caption": "a photo of a black cat and a white cat",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 1.0,
+          "miou": 0.84168541431427
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.5183038860559464
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.789060115814209
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7401467859745026
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_500084.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_500084.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_500084.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_500084.png"
+      },
+      "delta_instance_success": 1.0,
+      "delta_miou": -0.052625298500061035,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "5",
+      "image_id": "504256",
+      "caption": "a photo of a brown sheep and a yellow chair and a brown chair",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.6666666666666666,
+          "miou": 0.6504368384679159
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.434840848048528
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.8081574241320292
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.5520161986351013
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_504256.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_504256.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_504256.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_504256.png"
+      },
+      "delta_instance_success": 0.6666666666666666,
+      "delta_miou": 0.1577205856641133,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "4",
+      "image_id": "206112",
+      "caption": "a photo of a red backpack and a brown suitcase and a yellow suitcase and a yellow suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 0.75,
+          "miou": 0.5828625857830048
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.7534808665513992
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.75,
+          "localization": 1.0,
+          "miou": 0.8444433212280273
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8232079446315765
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_206112.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_206112.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_206112.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_206112.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.2615807354450226,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "4",
+      "image_id": "206112",
+      "caption": "a photo of a red backpack and a brown suitcase and a yellow suitcase and a yellow suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.75,
+          "miou": 0.552823856472969
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8530116379261017
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.8143080174922943
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8108609169721603
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_206112.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_206112.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_206112.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_206112.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.26148416101932526,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "7",
+      "image_id": "425569",
+      "caption": "a photo of a white oven and a white bowl",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.5,
+          "miou": 0.2645680904388428
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.4140869081020355
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.4117667078971863
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.40419745445251465
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_425569.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_425569.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_425569.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_425569.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.1471986174583435,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "4",
+      "image_id": "206112",
+      "caption": "a photo of a red backpack and a brown suitcase and a yellow suitcase and a yellow suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 1.0,
+          "miou": 0.7636084109544754
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.75,
+          "miou": 0.5932565927505493
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7964760959148407
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7822289764881134
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_206112.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_206112.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_206112.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_206112.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.032867684960365295,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "3",
+      "image_id": "170038",
+      "caption": "a photo of a black knife and a brown pizza and a black bowl and a brown bowl and a yellow dining table",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.8653487920761108
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.9109550595283509
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.9215577006340027
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.9013978004455566
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_170038.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_170038.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_170038.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_170038.png"
+      },
+      "delta_instance_success": 0.4,
+      "delta_miou": 0.056208908557891846,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "8",
+      "image_id": "340175",
+      "caption": "a photo of a black chair and a green chair and a white couch and a white dining table and a black bench and a brown book",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.16666666666666666,
+          "localization": 0.5,
+          "miou": 0.45496950546900433
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.5255993554989496
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.41743666927019757
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 0.6666666666666666,
+          "miou": 0.5412042041619619
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_340175.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_340175.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_340175.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_340175.png"
+      },
+      "delta_instance_success": 0.33333333333333337,
+      "delta_miou": -0.03753283619880676,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "6",
+      "image_id": "380597",
+      "caption": "a photo of a red bed and a brown potted plant and a yellow potted plant",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.6630647877852122
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.929892877737681
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.9290005366007487
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.90660560131073
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_380597.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_380597.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_380597.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_380597.png"
+      },
+      "delta_instance_success": 0.3333333333333333,
+      "delta_miou": 0.2659357488155365,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "6",
+      "image_id": "380597",
+      "caption": "a photo of a red bed and a brown potted plant and a yellow potted plant",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.6875745803117752
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 0.6666666666666666,
+          "miou": 0.6813946117957433
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.8807423710823059
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.7993894815444946
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_380597.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_380597.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_380597.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_380597.png"
+      },
+      "delta_instance_success": 0.3333333333333333,
+      "delta_miou": 0.1931677907705307,
+      "auxiliary_success": false
+    }
+  ],
+  "per_case": [
+    {
+      "seed": 42,
+      "bench_id": "0",
+      "image_id": "500084",
+      "caption": "a photo of a black cat and a white cat",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 1.0,
+          "miou": 0.84168541431427
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.5183038860559464
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.789060115814209
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7401467859745026
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_500084.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_500084.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_500084.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_500084.png"
+      },
+      "delta_instance_success": 1.0,
+      "delta_miou": -0.052625298500061035,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "2",
+      "image_id": "329533",
+      "caption": "a photo of a brown apple and a blue banana and a yellow banana and a blue banana and a yellow banana and a black banana",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.8333333333333334,
+          "miou": 0.6879253859321276
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 0.8333333333333334,
+          "miou": 0.6156625847021738
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.8333333333333334,
+          "miou": 0.6146352191766103
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.8333333333333334,
+          "miou": 0.6569830061246952
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_329533.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_329533.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_329533.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_329533.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.07329016675551725,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "3",
+      "image_id": "170038",
+      "caption": "a photo of a black knife and a brown pizza and a black bowl and a brown bowl and a yellow dining table",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6,
+          "localization": 1.0,
+          "miou": 0.8707294583320617
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6,
+          "localization": 1.0,
+          "miou": 0.8451774001121521
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6,
+          "localization": 1.0,
+          "miou": 0.8704820275306702
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6,
+          "localization": 1.0,
+          "miou": 0.8454644083976746
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_170038.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_170038.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_170038.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_170038.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.00024743080139155715,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "4",
+      "image_id": "206112",
+      "caption": "a photo of a red backpack and a brown suitcase and a yellow suitcase and a yellow suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.75,
+          "miou": 0.552823856472969
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8530116379261017
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.8143080174922943
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8108609169721603
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_206112.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_206112.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_206112.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_206112.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.26148416101932526,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "5",
+      "image_id": "504256",
+      "caption": "a photo of a brown sheep and a yellow chair and a brown chair",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.386749729514122
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.42798200249671936
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.5286245842774709
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.5296029845873514
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_504256.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_504256.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_504256.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_504256.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.14187485476334893,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "6",
+      "image_id": "380597",
+      "caption": "a photo of a red bed and a brown potted plant and a yellow potted plant",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.6875745803117752
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 0.6666666666666666,
+          "miou": 0.6813946117957433
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.8807423710823059
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.7993894815444946
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_380597.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_380597.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_380597.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_380597.png"
+      },
+      "delta_instance_success": 0.3333333333333333,
+      "delta_miou": 0.1931677907705307,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "7",
+      "image_id": "425569",
+      "caption": "a photo of a white oven and a white bowl",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.38298994302749634
+        },
+        "migc_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8075958788394928
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8507016003131866
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8287656903266907
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_425569.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_425569.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_425569.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_425569.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.4677116572856903,
+      "auxiliary_success": true
+    },
+    {
+      "seed": 42,
+      "bench_id": "8",
+      "image_id": "340175",
+      "caption": "a photo of a black chair and a green chair and a white couch and a white dining table and a black bench and a brown book",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.8333333333333334,
+          "miou": 0.6309720277786255
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.32046287615473074
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.8333333333333334,
+          "miou": 0.6528484721978506
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.472607562939326
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_340175.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_340175.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_340175.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_340175.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.021876444419225094,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "15",
+      "image_id": "550643",
+      "caption": "a photo of a black spoon and a brown broccoli and a red broccoli and a red bowl and a yellow oven",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.6,
+          "miou": 0.4508594051003456
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 0.8,
+          "miou": 0.6527890682220459
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 1.0,
+          "miou": 0.8015746474266052
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 1.0,
+          "miou": 0.807815957069397
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_550643.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_550643.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_550643.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_550643.png"
+      },
+      "delta_instance_success": 0.2,
+      "delta_miou": 0.3507152423262596,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 42,
+      "bench_id": "20",
+      "image_id": "411821",
+      "caption": "a photo of a green suitcase and a red suitcase and a white suitcase and a blue suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7247551828622818
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.75,
+          "miou": 0.725337952375412
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.75,
+          "localization": 1.0,
+          "miou": 0.8263102918863297
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.75,
+          "localization": 1.0,
+          "miou": 0.8432354927062988
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_42/interact_only_411821.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_42/migc_only_411821.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_42/interact_mixed_411821.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_42/migc_mixed_411821.png"
+      },
+      "delta_instance_success": 0.25,
+      "delta_miou": 0.10155510902404785,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "0",
+      "image_id": "500084",
+      "caption": "a photo of a black cat and a white cat",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.5516710430383682
+        },
+        "migc_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7412494719028473
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7949025928974152
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7907581329345703
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_500084.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_500084.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_500084.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_500084.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.24323154985904694,
+      "auxiliary_success": true
+    },
+    {
+      "seed": 123,
+      "bench_id": "2",
+      "image_id": "329533",
+      "caption": "a photo of a brown apple and a blue banana and a yellow banana and a blue banana and a yellow banana and a black banana",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.8333333333333334,
+          "miou": 0.6723876396814982
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 0.8333333333333334,
+          "miou": 0.5894893209139506
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.8333333333333334,
+          "miou": 0.6047273383786281
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.8333333333333334,
+          "miou": 0.6351871540149053
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_329533.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_329533.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_329533.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_329533.png"
+      },
+      "delta_instance_success": 0.16666666666666669,
+      "delta_miou": -0.06766030130287004,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "3",
+      "image_id": "170038",
+      "caption": "a photo of a black knife and a brown pizza and a black bowl and a brown bowl and a yellow dining table",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.8653487920761108
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.9109550595283509
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.9215577006340027
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.9013978004455566
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_170038.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_170038.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_170038.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_170038.png"
+      },
+      "delta_instance_success": 0.4,
+      "delta_miou": 0.056208908557891846,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "4",
+      "image_id": "206112",
+      "caption": "a photo of a red backpack and a brown suitcase and a yellow suitcase and a yellow suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 0.75,
+          "miou": 0.5828625857830048
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.7534808665513992
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.75,
+          "localization": 1.0,
+          "miou": 0.8444433212280273
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8232079446315765
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_206112.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_206112.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_206112.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_206112.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.2615807354450226,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "5",
+      "image_id": "504256",
+      "caption": "a photo of a brown sheep and a yellow chair and a brown chair",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.4776902993520101
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.5036828418572744
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.53616996606191
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.5346973339716593
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_504256.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_504256.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_504256.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_504256.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.05847966670989996,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "6",
+      "image_id": "380597",
+      "caption": "a photo of a red bed and a brown potted plant and a yellow potted plant",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.7063601215680441
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.5298206210136414
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.37850860754648846
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.3541974325974782
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_380597.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_380597.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_380597.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_380597.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.3278515140215556,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "7",
+      "image_id": "425569",
+      "caption": "a photo of a white oven and a white bowl",
+      "metrics": {
+        "interact_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7859722375869751
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.4018285870552063
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7765041589736938
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7378636002540588
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_425569.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_425569.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_425569.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_425569.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.00946807861328125,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "8",
+      "image_id": "340175",
+      "caption": "a photo of a black chair and a green chair and a white couch and a white dining table and a black bench and a brown book",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.6666666666666666,
+          "miou": 0.5057149132092794
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 0.8333333333333334,
+          "miou": 0.5558468600114187
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.6666666666666666,
+          "miou": 0.4894607464472453
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.6666666666666666,
+          "miou": 0.48842789442278445
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_340175.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_340175.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_340175.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_340175.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.016254166762034117,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "15",
+      "image_id": "550643",
+      "caption": "a photo of a black spoon and a brown broccoli and a red broccoli and a red bowl and a yellow oven",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 0.6,
+          "miou": 0.5047883585095405
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.803779661655426
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 0.8,
+          "miou": 0.6675662875175477
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 0.8,
+          "miou": 0.7165260136127471
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_550643.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_550643.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_550643.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_550643.png"
+      },
+      "delta_instance_success": 0.2,
+      "delta_miou": 0.16277792900800714,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 123,
+      "bench_id": "20",
+      "image_id": "411821",
+      "caption": "a photo of a green suitcase and a red suitcase and a white suitcase and a blue suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 0.75,
+          "miou": 0.709343284368515
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.75,
+          "localization": 0.75,
+          "miou": 0.6613723412156105
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.75,
+          "miou": 0.7585521340370178
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.75,
+          "miou": 0.7016165032982826
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_123/interact_only_411821.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_123/migc_only_411821.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_123/interact_mixed_411821.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_123/migc_mixed_411821.png"
+      },
+      "delta_instance_success": 0.25,
+      "delta_miou": 0.04920884966850281,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "0",
+      "image_id": "500084",
+      "caption": "a photo of a black cat and a white cat",
+      "metrics": {
+        "interact_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7481386363506317
+        },
+        "migc_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8022589981555939
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8294205069541931
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7260823547840118
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_500084.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_500084.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_500084.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_500084.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.0812818706035614,
+      "auxiliary_success": true
+    },
+    {
+      "seed": 3407,
+      "bench_id": "2",
+      "image_id": "329533",
+      "caption": "a photo of a brown apple and a blue banana and a yellow banana and a blue banana and a yellow banana and a black banana",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.8333333333333334,
+          "miou": 0.6542980621258417
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.6666666666666666,
+          "miou": 0.5050532619158427
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.16666666666666666,
+          "localization": 1.0,
+          "miou": 0.7455347379048666
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.16666666666666666,
+          "localization": 0.6666666666666666,
+          "miou": 0.6779142618179321
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_329533.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_329533.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_329533.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_329533.png"
+      },
+      "delta_instance_success": -0.16666666666666666,
+      "delta_miou": 0.09123667577902483,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "3",
+      "image_id": "170038",
+      "caption": "a photo of a black knife and a brown pizza and a black bowl and a brown bowl and a yellow dining table",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6,
+          "localization": 1.0,
+          "miou": 0.8800265789031982
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6,
+          "localization": 1.0,
+          "miou": 0.8770482301712036
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.9101045250892639
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.8771594285964965
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_170038.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_170038.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_170038.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_170038.png"
+      },
+      "delta_instance_success": 0.20000000000000007,
+      "delta_miou": 0.03007794618606563,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "4",
+      "image_id": "206112",
+      "caption": "a photo of a red backpack and a brown suitcase and a yellow suitcase and a yellow suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 1.0,
+          "miou": 0.7636084109544754
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.75,
+          "miou": 0.5932565927505493
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7964760959148407
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7822289764881134
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_206112.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_206112.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_206112.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_206112.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.032867684960365295,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "5",
+      "image_id": "504256",
+      "caption": "a photo of a brown sheep and a yellow chair and a brown chair",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.5308093925317129
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.6511600414911906
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.5536382794380188
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.6194302638371786
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_504256.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_504256.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_504256.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_504256.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.022828886906305912,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "6",
+      "image_id": "380597",
+      "caption": "a photo of a red bed and a brown potted plant and a yellow potted plant",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.6630647877852122
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.929892877737681
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.9290005366007487
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.90660560131073
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_380597.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_380597.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_380597.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_380597.png"
+      },
+      "delta_instance_success": 0.3333333333333333,
+      "delta_miou": 0.2659357488155365,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "7",
+      "image_id": "425569",
+      "caption": "a photo of a white oven and a white bowl",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7851731479167938
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.6724271476268768
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.8101233541965485
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.8199405670166016
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_425569.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_425569.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_425569.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_425569.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.02495020627975464,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "8",
+      "image_id": "340175",
+      "caption": "a photo of a black chair and a green chair and a white couch and a white dining table and a black bench and a brown book",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.16666666666666666,
+          "localization": 0.5,
+          "miou": 0.45496950546900433
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.5255993554989496
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.41743666927019757
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 0.6666666666666666,
+          "miou": 0.5412042041619619
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_340175.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_340175.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_340175.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_340175.png"
+      },
+      "delta_instance_success": 0.33333333333333337,
+      "delta_miou": -0.03753283619880676,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "15",
+      "image_id": "550643",
+      "caption": "a photo of a black spoon and a brown broccoli and a red broccoli and a red bowl and a yellow oven",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 0.6,
+          "miou": 0.5154496997594833
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 0.8,
+          "miou": 0.7861938536167145
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 0.4,
+          "miou": 0.3673065334558487
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 0.4,
+          "miou": 0.397594690322876
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_550643.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_550643.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_550643.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_550643.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.1481431663036346,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 3407,
+      "bench_id": "20",
+      "image_id": "411821",
+      "caption": "a photo of a green suitcase and a red suitcase and a white suitcase and a blue suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.708336815237999
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.75,
+          "localization": 1.0,
+          "miou": 0.7774550169706345
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.759143278002739
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.8082583695650101
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_3407/interact_only_411821.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_3407/migc_only_411821.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/interact_mixed_411821.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_3407/migc_mixed_411821.png"
+      },
+      "delta_instance_success": 0.25,
+      "delta_miou": 0.05080646276473999,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "0",
+      "image_id": "500084",
+      "caption": "a photo of a black cat and a white cat",
+      "metrics": {
+        "interact_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8322423696517944
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.5369947999715805
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8036316633224487
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8048637211322784
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_500084.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_500084.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_500084.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_500084.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.028610706329345703,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "2",
+      "image_id": "329533",
+      "caption": "a photo of a brown apple and a blue banana and a yellow banana and a blue banana and a yellow banana and a black banana",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.8333333333333334,
+          "miou": 0.7030660435557365
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 0.8333333333333334,
+          "miou": 0.6992364972829819
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.8333333333333334,
+          "miou": 0.6801576980700096
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.8333333333333334,
+          "miou": 0.6626617349684238
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_329533.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_329533.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_329533.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_329533.png"
+      },
+      "delta_instance_success": 0.16666666666666669,
+      "delta_miou": -0.022908345485726955,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "3",
+      "image_id": "170038",
+      "caption": "a photo of a black knife and a brown pizza and a black bowl and a brown bowl and a yellow dining table",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 1.0,
+          "miou": 0.8451541185379028
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.8,
+          "localization": 1.0,
+          "miou": 0.8728779077529907
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.8954456329345704
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.8801092743873596
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_170038.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_170038.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_170038.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_170038.png"
+      },
+      "delta_instance_success": 0.2,
+      "delta_miou": 0.05029151439666757,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "4",
+      "image_id": "206112",
+      "caption": "a photo of a red backpack and a brown suitcase and a yellow suitcase and a yellow suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.75,
+          "miou": 0.6219549030065536
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8955366760492325
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.75,
+          "miou": 0.6518052369356155
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.7922765463590622
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_206112.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_206112.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_206112.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_206112.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.02985033392906189,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "5",
+      "image_id": "504256",
+      "caption": "a photo of a brown sheep and a yellow chair and a brown chair",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.6666666666666666,
+          "miou": 0.6504368384679159
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.434840848048528
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.8081574241320292
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.5520161986351013
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_504256.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_504256.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_504256.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_504256.png"
+      },
+      "delta_instance_success": 0.6666666666666666,
+      "delta_miou": 0.1577205856641133,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "6",
+      "image_id": "380597",
+      "caption": "a photo of a red bed and a brown potted plant and a yellow potted plant",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.716206967830658
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.7897128462791443
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 1.0,
+          "miou": 0.8606305917104086
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8983379999796549
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_380597.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_380597.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_380597.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_380597.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.1444236238797506,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "7",
+      "image_id": "425569",
+      "caption": "a photo of a white oven and a white bowl",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7217880189418793
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.4224621206521988
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.3883385956287384
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7309080958366394
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_425569.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_425569.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_425569.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_425569.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.33344942331314087,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "8",
+      "image_id": "340175",
+      "caption": "a photo of a black chair and a green chair and a white couch and a white dining table and a black bench and a brown book",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.6666666666666666,
+          "miou": 0.5349055627981821
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.5,
+          "miou": 0.46092655758063
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.5,
+          "miou": 0.4531872421503067
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.5,
+          "miou": 0.39830103019873303
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_340175.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_340175.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_340175.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_340175.png"
+      },
+      "delta_instance_success": -0.16666666666666669,
+      "delta_miou": -0.08171832064787543,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "15",
+      "image_id": "550643",
+      "caption": "a photo of a black spoon and a brown broccoli and a red broccoli and a red bowl and a yellow oven",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.6,
+          "miou": 0.4648995876312256
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 0.6,
+          "miou": 0.5834184020757676
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 0.6,
+          "miou": 0.5261856436729431
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 0.6,
+          "miou": 0.5754792273044587
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_550643.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_550643.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_550643.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_550643.png"
+      },
+      "delta_instance_success": 0.2,
+      "delta_miou": 0.061286056041717496,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 2026,
+      "bench_id": "20",
+      "image_id": "411821",
+      "caption": "a photo of a green suitcase and a red suitcase and a white suitcase and a blue suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.814708799123764
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.75,
+          "localization": 1.0,
+          "miou": 0.86465884745121
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7369679063558578
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7351957410573959
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_2026/interact_only_411821.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_2026/migc_only_411821.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/interact_mixed_411821.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_2026/migc_mixed_411821.png"
+      },
+      "delta_instance_success": 0.25,
+      "delta_miou": -0.07774089276790619,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "0",
+      "image_id": "500084",
+      "caption": "a photo of a black cat and a white cat",
+      "metrics": {
+        "interact_only": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.7709628343582153
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.4876911789178848
+        },
+        "interact_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8547284007072449
+        },
+        "migc_mixed": {
+          "image_success": 1.0,
+          "instance_success": 1.0,
+          "localization": 1.0,
+          "miou": 0.8496763706207275
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_500084.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_500084.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_500084.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_500084.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.08376556634902954,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "2",
+      "image_id": "329533",
+      "caption": "a photo of a brown apple and a blue banana and a yellow banana and a blue banana and a yellow banana and a black banana",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.8333333333333334,
+          "miou": 0.609105775753657
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.8333333333333334,
+          "miou": 0.6407679667075475
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.8333333333333334,
+          "miou": 0.6812696655591329
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.8139943182468414
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_329533.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_329533.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_329533.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_329533.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.07216388980547594,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "3",
+      "image_id": "170038",
+      "caption": "a photo of a black knife and a brown pizza and a black bowl and a brown bowl and a yellow dining table",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.8788321852684021
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 1.0,
+          "miou": 0.8268370389938354
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.9019487023353576
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.8616141080856323
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_170038.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_170038.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_170038.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_170038.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.0231165170669555,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "4",
+      "image_id": "206112",
+      "caption": "a photo of a red backpack and a brown suitcase and a yellow suitcase and a yellow suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 0.5,
+          "miou": 0.39991531521081924
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8331976383924484
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.7885751277208328
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.8122866898775101
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_206112.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_206112.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_206112.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_206112.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.3886598125100136,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "5",
+      "image_id": "504256",
+      "caption": "a photo of a brown sheep and a yellow chair and a brown chair",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.650827556848526
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.5269742459058762
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.5144427418708801
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.3333333333333333,
+          "miou": 0.5209885736306509
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_504256.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_504256.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_504256.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_504256.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": -0.13638481497764587,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "6",
+      "image_id": "380597",
+      "caption": "a photo of a red bed and a brown potted plant and a yellow potted plant",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 0.6666666666666666,
+          "miou": 0.6839384982983271
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.825738787651062
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.3333333333333333,
+          "localization": 1.0,
+          "miou": 0.924532413482666
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.6666666666666666,
+          "localization": 1.0,
+          "miou": 0.9079553683598837
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_380597.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_380597.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_380597.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_380597.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.24059391518433892,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "7",
+      "image_id": "425569",
+      "caption": "a photo of a white oven and a white bowl",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.0,
+          "localization": 0.5,
+          "miou": 0.2645680904388428
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.4140869081020355
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.4117667078971863
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.5,
+          "miou": 0.40419745445251465
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_425569.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_425569.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_425569.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_425569.png"
+      },
+      "delta_instance_success": 0.5,
+      "delta_miou": 0.1471986174583435,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "8",
+      "image_id": "340175",
+      "caption": "a photo of a black chair and a green chair and a white couch and a white dining table and a black bench and a brown book",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.6666666666666666,
+          "miou": 0.46520989139874774
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.16666666666666666,
+          "localization": 0.5,
+          "miou": 0.43520713845888775
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.6666666666666666,
+          "miou": 0.5228569010893503
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.6666666666666666,
+          "miou": 0.5240946014722189
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_340175.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_340175.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_340175.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_340175.png"
+      },
+      "delta_instance_success": 0.0,
+      "delta_miou": 0.0576470096906026,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "15",
+      "image_id": "550643",
+      "caption": "a photo of a black spoon and a brown broccoli and a red broccoli and a red bowl and a yellow oven",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 0.6,
+          "miou": 0.5435672998428345
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 1.0,
+          "miou": 0.7554427981376648
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.4,
+          "localization": 1.0,
+          "miou": 0.8446033954620361
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.2,
+          "localization": 0.6,
+          "miou": 0.5376363635063172
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_550643.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_550643.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_550643.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_550643.png"
+      },
+      "delta_instance_success": 0.2,
+      "delta_miou": 0.30103609561920164,
+      "auxiliary_success": false
+    },
+    {
+      "seed": 10007,
+      "bench_id": "20",
+      "image_id": "411821",
+      "caption": "a photo of a green suitcase and a red suitcase and a white suitcase and a blue suitcase",
+      "metrics": {
+        "interact_only": {
+          "image_success": 0.0,
+          "instance_success": 0.25,
+          "localization": 1.0,
+          "miou": 0.7516589611768723
+        },
+        "migc_only": {
+          "image_success": 0.0,
+          "instance_success": 0.75,
+          "localization": 0.75,
+          "miou": 0.7312095984816551
+        },
+        "interact_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 1.0,
+          "miou": 0.7649624645709991
+        },
+        "migc_mixed": {
+          "image_success": 0.0,
+          "instance_success": 0.5,
+          "localization": 0.75,
+          "miou": 0.7305389940738678
+        }
+      },
+      "paths": {
+        "interact_only": "outputs/migc_interact_robustness_10x5/seed_10007/interact_only_411821.png",
+        "migc_only": "outputs/migc_interact_robustness_10x5/seed_10007/migc_only_411821.png",
+        "interact_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/interact_mixed_411821.png",
+        "migc_mixed": "outputs/migc_interact_robustness_10x5/seed_10007/migc_mixed_411821.png"
+      },
+      "delta_instance_success": 0.25,
+      "delta_miou": 0.013303503394126892,
+      "auxiliary_success": false
+    }
+  ]
+}
